@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+<div class="row my-5">
+  <div class="col-12 d-flex justify-content-center align-items-center ">
+    <div class="circular-image-container">
+      <img class="circular-image" src=" {% static 'images/akriti.jpeg' %}" alt="Image">
+    </div>
+  </div>
+
+  <div class="col-12 text-center mt-3">
+    <h4 class="title"> Hi, My Name is </h4>
+      <div class="name">
+        <h1> Akriti Singh </h1>
+        <h1> I am Software Developer </h1>
+      </div>
+  </div>
+
+  <div class="col-12 text-center mt-3">
+    <div class="col-12 d-flex justify-content-center align-items-center ">
+        <a href="https://www.linkedin.com/in/akriti-singh-5831891b7/" target="_blank" class="ms-3">
+          <img src="{% static 'images/linkendin.png' %}" alt="linkedin" width="50" height="50" class="social_links">
+        </a>
+
+        <a href="https://www.hackerrank.com/profile/akritisinghchau1" target="_blank" class="ms-3">
+          <img src="{% static 'images/hackerrank.png' %}" alt="hackerrank" width="50" height="50" class="social_links">
+        </a>
+
+        <a href="https://leetcode.com/u/akritisingh07/" target="_blank" class="ms-3">
+          <img src="{% static 'images/leetcode.png' %}" alt="leetcode" width="50" height="50" class="social_links">
+        </a>
+
+        <a href="https://github.com/akritisingh07" target="_blank" class="ms-3">
+          <img src="{% static 'images/github.png' %}" alt="github" width="50" height="50" class="social_links">
+        </a>
+      </div>
+  </div>
+</div>
+
+
+{% endblock content1 %}
